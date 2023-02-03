@@ -1,0 +1,33 @@
+html { font-size: max(1em, 10vmax) }
+body { margin: auto; padding: 1em }
+
+.whale {
+  font: 1em sans-serif;
+  box-sizing: border-box;
+  margin: auto auto 1em;
+  padding: 1em;
+  transform: rotate(-60deg);
+}
+
+.swish {
+  font-size: calc(2em / 3);
+  line-height: 1.61;
+  margin: auto auto 22vh;
+  transform: rotate(-120deg);
+}
+
+:any-link {
+  border-radius: 1ex 1em;
+  display: inline-flex;
+  transition: 100ms;
+  text-decoration: dotted overline;
+}
+
+:focus {
+  outline-width: thick;
+  outline-style: dotted;
+}
+
+:link:active {
+  text-decoration: dashed overline;
+}

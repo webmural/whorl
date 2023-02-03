@@ -1,0 +1,33 @@
+::selection {
+  background: #ec0;
+  color: darkslateblue;
+}
+
+:root {
+  background-color: orangered;
+  background-image: radial-gradient(deepskyblue, dodgerblue, darkorchid);
+  color: #020202;
+}
+
+:any-link {
+  padding: 1ex;
+  color: #ec0;
+  background-color: darkorchid;
+}
+
+:focus {
+  color: indigo;
+  background-color: orangered;
+  outline-color: orangered;
+  text-shadow: 1ex 0 1pt fuchsia;
+}
+
+a:active {
+  filter: hue-rotate(-72deg);
+  text-shadow: 1ex 0 2pt turquoise;
+}
+
+a:hover {
+  color: indigo;
+  background-color: #ec0;
+}
